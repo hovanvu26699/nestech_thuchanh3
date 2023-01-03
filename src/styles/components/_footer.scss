@@ -1,0 +1,100 @@
+.footer {
+    margin-top: 167px;
+
+    &__top {
+        padding: 41px 120px;
+        display: flex;
+        justify-content: space-between;
+        background-color: var(--bg-color);
+
+        &-title {
+            color: var(--text-light);
+            width: 613px;
+            font-size: 36px;
+            font-weight: 600;
+            line-height: 61px;
+        }
+
+        &-contact {
+            width: 432px;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 29px;
+            color: var(--text-sub);
+
+            .btn {
+                margin-top: 20px;
+            }
+        }
+    }
+
+    &__main {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 80px 120px 0 120px;
+
+        &-title {
+            h2 {
+                margin-top: 20px;
+                font-size: 36px;
+                font-weight: 600;
+                line-height: 61px;
+                width: 481px;
+            }
+        }
+
+        &-email {
+            span {
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 28px;
+            }
+
+            .email-input {
+                input {
+                    width: 395px;
+                    margin-top: 10px;
+                    padding: 10px;
+                    border: 0;
+                    background-color: #f9f9f9;
+                }
+
+                input::placeholder {
+                    color: #D9D9D9D9;
+                }
+
+                img {
+                    margin-bottom: 25px;
+                }
+            }
+        }
+    }
+
+    &__social {
+        padding: 0 120px;
+        text-align: end;
+
+        span {
+            font-size: 16px;
+            font-weight: 400;
+            margin-right: 75px;
+            display: block;
+        }
+
+        &-item {
+            color: black;
+
+            img {
+                border-radius: 50%;
+                margin-top: 15px;
+                margin-left: 38px;
+                margin-bottom: 86px;
+                width: 30px;
+                height: 30px;
+                padding: 5px;
+                background-color: rgb(199, 199, 199);
+            }
+        }
+    }
+}

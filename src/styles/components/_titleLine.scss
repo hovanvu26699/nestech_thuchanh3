@@ -1,0 +1,25 @@
+.line__title {
+    display: flex;
+    align-items: center;
+
+    &-content {
+        margin-right: 17px;
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .line {
+        width: 529px;
+        border-top: 2px solid var(--text-section);
+    }
+}
+
+.line__text {
+    margin-top: 32px;
+
+    &-content {
+        font-size: 36px;
+        font-weight: 600;
+        line-height: 61px;
+    }
+}

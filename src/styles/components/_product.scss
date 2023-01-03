@@ -1,0 +1,21 @@
+.product {
+    margin-top: 534px;
+
+    &__text-flex {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .line__sub {
+        width: 473px;
+
+        &-content {
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 29px;
+            color: var(--text-sub);
+        }
+    }
+
+}

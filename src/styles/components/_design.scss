@@ -1,0 +1,69 @@
+.main {
+    .design {
+        margin-top: 58px;
+        position: relative;
+
+        &__title {
+
+            h1 {
+                font-size: 72px;
+                font-weight: 700;
+                width: 681px;
+                line-height: 100px;
+            }
+        }
+
+        &__line {
+            position: absolute;
+            top: 50px;
+            right: 0;
+            width: 748px;
+            border-top: 2px solid var(--text-section);
+        }
+
+        &__rev {
+            font-weight: 500;
+            font-size: 18px;
+            writing-mode: vertical-lr;
+            display: flex;
+            justify-content: flex-end;
+            position: absolute;
+            top: 113px;
+            right: 0;
+            text-align: end;
+
+        }
+
+        &__number {
+            width: 252px;
+            height: 525px;
+            font-size: 52px;
+            padding: 13px 51px;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            text-align: center;
+            color: var(--text-light);
+            background-color: var(--bg-color);
+
+            position: absolute;
+            top: 140px;
+            right: 142px;
+
+            span {
+                display: block;
+                margin-top: 10px;
+                font-size: 16px;
+            }
+        }
+
+        &__image {
+            margin-top: 46px;
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+}

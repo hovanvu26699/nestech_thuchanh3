@@ -1,0 +1,35 @@
+.choices {
+    font-size: 24px;
+    font-weight: 600;
+    padding: 41px 0;
+
+    &__list {
+        padding: 17.5px 0;
+        display: flex;
+        justify-content: space-between;
+
+        &-order {
+            display: flex;
+
+            .item-title {
+                margin-left: 80px;
+
+                .item-sub {
+                    margin-top: 24px;
+                    width: 469px;
+                    font-size: 18px;
+                    font-weight: 400;
+                    line-height: 29px;
+                    color: var(--text-sub);
+                }
+            }
+        }
+
+
+        &-arrow {
+            img:first-child {
+                margin-right: -16px;
+            }
+        }
+    }
+}

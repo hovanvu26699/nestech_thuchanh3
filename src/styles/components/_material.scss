@@ -1,0 +1,41 @@
+.material {
+    position: relative;
+    margin-top: 180px;
+
+    .line__text-content {
+        width: 348px;
+    }
+
+    &__sub {
+        &-content {
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 29px;
+            width: 497px;
+            color: var(--text-sub);
+        }
+
+        .btn {
+            margin-top: 23px;
+            border: 1px solid #000;
+        }
+    }
+
+    .material_1 {
+        position: absolute;
+        left: 577px;
+        top: 39px;
+    }
+
+    .material_2 {
+        position: absolute;
+        left: 958px;
+        top: -57px;
+    }
+
+    .material_3 {
+        position: absolute;
+        left: 958px;
+        top: 206px;
+    }
+}
